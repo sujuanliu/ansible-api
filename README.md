@@ -49,7 +49,6 @@
  # 如何调用接口执行ansible playbook
     ansible.run_playbook("xxx.yml")
     result = ansible.get_result()
-    print(result)
     
     结果：
     {
