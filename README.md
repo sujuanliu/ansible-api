@@ -47,7 +47,8 @@
 }
     
  # 如何调用接口执行ansible playbook
-    ansible.run_playbook("xxx.yml")
+    ansible = ansible_Runner('/etc/ansible/hosts')
+    ansible.run_playbook("test.yml")
     result = ansible.get_result()
     
     结果：
